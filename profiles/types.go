@@ -5,7 +5,7 @@ import (
 	"hash/fnv"
 	"sort"
 
-	"github.com/coroot/coroot-cluster-agent/discovery"
+	"github.com/codifinary/codexray-cluster-agent/discovery"
 )
 
 type Source string

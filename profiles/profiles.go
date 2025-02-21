@@ -12,9 +12,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/coroot/coroot-cluster-agent/common"
-	"github.com/coroot/coroot-cluster-agent/discovery"
-	"github.com/coroot/coroot-cluster-agent/flags"
+	"github.com/codifinary/codexray-cluster-agent/common"
+	"github.com/codifinary/codexray-cluster-agent/discovery"
+	"github.com/codifinary/codexray-cluster-agent/flags"
 	"github.com/google/pprof/profile"
 	"k8s.io/klog"
 )

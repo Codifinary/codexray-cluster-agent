@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"strconv"
 
-	"github.com/coroot/coroot-cluster-agent/common"
+	"github.com/codifinary/codexray-cluster-agent/common"
 
 	"github.com/go-sql-driver/mysql"
 	"github.com/prometheus/client_golang/prometheus"

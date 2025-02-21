@@ -8,8 +8,8 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/coroot/coroot-cluster-agent/common"
-	"github.com/coroot/coroot-cluster-agent/flags"
+	"github.com/codifinary/codexray-cluster-agent/common"
+	"github.com/codifinary/codexray-cluster-agent/flags"
 	"github.com/coroot/coroot/model"
 	"k8s.io/klog"
 )
