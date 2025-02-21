@@ -5,22 +5,22 @@ COPY go.sum .
 RUN go mod download
 COPY . .
 ARG VERSION=unknown
-RUN  GOARCH=amd64 GOOS=linux CGO_ENABLED=1  go build -mod=readonly -ldflags "-X main.version=$VERSION" -o coroot-cluster-agent .
+RUN  GOARCH=amd64 GOOS=linux CGO_ENABLED=1  go build -mod=readonly -ldflags "-X main.version=$VERSION" -o codexray-cluster-agent .
 
 
 FROM registry.access.redhat.com/ubi9/ubi
 
 ARG VERSION=unknown
-LABEL name="coroot-cluster-agent" \
-      vendor="Coroot, Inc." \
+LABEL name="codexray-cluster-agent" \
+      vendor="Codexray, Inc." \
       version=${VERSION} \
-      summary="Coroot Cluster Agent."
+      summary="Codexray Cluster Agent."
 
 COPY LICENSE /licenses/LICENSE
 
-COPY --from=builder /tmp/src/coroot-cluster-agent /usr/bin/coroot-cluster-agent
+COPY --from=builder /tmp/src/codexray-cluster-agent /usr/bin/codexray-cluster-agent
 RUN mkdir /data && chown 65534:65534 /data
 
 USER 65534:65534
 VOLUME /data
-ENTRYPOINT ["coroot-cluster-agent"]
+ENTRYPOINT ["codexray-cluster-agent"]
