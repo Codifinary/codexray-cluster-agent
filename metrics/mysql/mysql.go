@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/coroot/coroot-cluster-agent/common"
+	"github.com/codifinary/codexray-cluster-agent/common"
 
 	"github.com/coroot/logger"
 	_ "github.com/go-sql-driver/mysql"

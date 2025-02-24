@@ -8,7 +8,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/cloudwatchlogs"
 	"github.com/aws/aws-sdk-go/service/rds"
-	"github.com/coroot/coroot-cluster-agent/common"
+	"github.com/codifinary/codexray-cluster-agent/common"
 	"github.com/coroot/logparser"
 	"github.com/prometheus/client_golang/prometheus"
 	"k8s.io/klog"

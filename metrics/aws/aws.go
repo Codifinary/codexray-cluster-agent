@@ -15,7 +15,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/elasticache"
 	"github.com/aws/aws-sdk-go/service/rds"
-	"github.com/coroot/coroot-cluster-agent/common"
+	"github.com/codifinary/codexray-cluster-agent/common"
 	"github.com/coroot/coroot/model"
 	"github.com/prometheus/client_golang/prometheus"
 	"k8s.io/klog"

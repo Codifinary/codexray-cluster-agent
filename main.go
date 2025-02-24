@@ -5,11 +5,11 @@ import (
 	_ "net/http/pprof"
 	"time"
 
-	"github.com/coroot/coroot-cluster-agent/config"
-	"github.com/coroot/coroot-cluster-agent/discovery"
-	"github.com/coroot/coroot-cluster-agent/flags"
-	"github.com/coroot/coroot-cluster-agent/metrics"
-	"github.com/coroot/coroot-cluster-agent/profiles"
+	"github.com/codifinary/codexray-cluster-agent/config"
+	"github.com/codifinary/codexray-cluster-agent/discovery"
+	"github.com/codifinary/codexray-cluster-agent/flags"
+	"github.com/codifinary/codexray-cluster-agent/metrics"
+	"github.com/codifinary/codexray-cluster-agent/profiles"
 	"github.com/gorilla/mux"
 	"k8s.io/klog"
 )

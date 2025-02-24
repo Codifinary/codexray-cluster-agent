@@ -1,4 +1,4 @@
-module github.com/coroot/coroot-cluster-agent
+module github.com/codifinary/codexray-cluster-agent
 
 go 1.21
 

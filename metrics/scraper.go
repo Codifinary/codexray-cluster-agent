@@ -3,7 +3,7 @@ package metrics
 import (
 	"time"
 
-	"github.com/coroot/coroot-cluster-agent/common"
+	"github.com/codifinary/codexray-cluster-agent/common"
 	"github.com/go-kit/log/level"
 	"github.com/prometheus/client_golang/prometheus"
 	promCommon "github.com/prometheus/common/config"
